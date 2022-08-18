@@ -1,92 +1,193 @@
-<mxfile modified="2022-08-18T03:54:09.304Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="eOyr1twxncgTqu2xtHQR" version="17.4.4" type="github">
+<mxfile modified="2022-08-18T06:05:19.670Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="FtecRa807nLI3DHOrrgi" version="17.4.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1342" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1579" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-45" value="" style="fillColor=none;strokeColor=#FF6666;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="570" width="797.5" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-34" value="" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" vertex="1" parent="1">
-          <mxGeometry x="24.5" y="350" width="893.5" height="670" as="geometry" />
+          <mxGeometry x="40" y="319" width="880" height="801" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;exitX=0.875;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674.130434782609" y="487" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-QjtrjUzRDEMRZ5MF8oH-47" value="erpv5基础架构" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="56.5" y="64.5" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="-QjtrjUzRDEMRZ5MF8oH-48" value="Subtitle text&lt;br style=&quot;font-size: 16px&quot;&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="56.5" y="114.5" width="100" height="20" as="geometry" />
+          <mxGeometry x="55.5" y="80" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SCVMTBWpLvtzJIhz15lM-1" value="" style="line;strokeWidth=2;html=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="52.5" y="139.5" width="1060" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-4" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/storage/Azure_NetApp_Files.svg;" vertex="1" parent="1">
-          <mxGeometry x="1169" y="250" width="65" height="52" as="geometry" />
+          <mxGeometry x="52.5" y="139.5" width="877.5" height="10" as="geometry" />
         </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-6" target="CZEU1sbUoMlxqX_lX94S-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-6" value="自建DNS" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
-          <mxGeometry x="211.5" y="197" width="64" height="64" as="geometry" />
+          <mxGeometry x="236.22" y="198" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Network_Gateways.svg;" vertex="1" parent="1">
-          <mxGeometry x="970" y="670" width="52" height="69" as="geometry" />
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-87" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-8" target="CZEU1sbUoMlxqX_lX94S-82">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-8" value="应用防火墙WAF" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Web_Application_Firewall_Policies_WAF.svg;" vertex="1" parent="1">
-          <mxGeometry x="370" y="195" width="68" height="68" as="geometry" />
+          <mxGeometry x="443" y="196" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-10" value="专有网络VPC" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_WANs.svg;" vertex="1" parent="1">
-          <mxGeometry x="600" y="195" width="65" height="64" as="geometry" />
+          <mxGeometry x="52.5" y="330" width="65" height="64" as="geometry" />
         </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.516;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#007FFF;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-11" target="CZEU1sbUoMlxqX_lX94S-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-11" target="CZEU1sbUoMlxqX_lX94S-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="260" />
+              <mxPoint x="140" y="467" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-11" value="&lt;div&gt;用户&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Users.svg;" vertex="1" parent="1">
-          <mxGeometry x="40" y="195" width="64" height="70" as="geometry" />
+          <mxGeometry x="46" y="196" width="64" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-12" value="模块" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Module.svg;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="530" width="64" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-13" value="SSD" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/SSD.svg;" vertex="1" parent="1">
-          <mxGeometry x="970" y="760" width="66" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-15" value="&lt;div&gt;文件存储&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Storage_Azure_Files.svg;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="739" width="64" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-16" value="mysql" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
-          <mxGeometry x="950" y="400" width="48" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-17" value="K8s服务" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="1112.5" y="423" width="68" height="60" as="geometry" />
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-13" value="文件存储NAS" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/SSD.svg;" vertex="1" parent="1">
+          <mxGeometry x="250" y="974" width="66" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-19" value="&lt;div&gt;网络服务&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="810" y="195" width="64" height="64" as="geometry" />
+          <mxGeometry x="747.22" y="195" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-20" value="专有网络VPC" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/CDN_Profiles.svg;" vertex="1" parent="1">
-          <mxGeometry x="56.5" y="338" width="68" height="40" as="geometry" />
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-27" value="负载均衡SLB" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="203.5" y="430" width="72" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-24" value="容器实例" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Container_Instances.svg;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="710" width="64" height="68" as="geometry" />
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1" target="CZEU1sbUoMlxqX_lX94S-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="706.1099999999999" y="455.0434782608695" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-26" value="本地网关" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/other/Local_Network_Gateways.svg;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="310" width="68" height="68" as="geometry" />
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-77" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.655;entryY=-0.07;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#007FFF;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-82" target="CZEU1sbUoMlxqX_lX94S-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-27" value="负载均衡SLB" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;" vertex="1" parent="1">
-          <mxGeometry x="240" y="430" width="72" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-28" value="NAT" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/NAT.svg;" vertex="1" parent="1">
-          <mxGeometry x="1022" y="462" width="68" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-30" value="应用网关" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Application_Gateways.svg;" vertex="1" parent="1">
-          <mxGeometry x="950" y="286" width="64" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-37" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/intune/Intune.svg;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="642" width="68" height="62" as="geometry" />
-        </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-38" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="622" width="68" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-39" value="虚拟网络" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
-          <mxGeometry x="950" y="566" width="67" height="40" as="geometry" />
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-78" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#007FFF;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-82" target="CZEU1sbUoMlxqX_lX94S-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-40" value="负载均衡SLB" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;" vertex="1" parent="1">
-          <mxGeometry x="500" y="430" width="72" height="72" as="geometry" />
+          <mxGeometry x="439" y="430" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-42" value="API Server" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="403" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-43" value="Nginx Ingress" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="425" y="403" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-45" target="CZEU1sbUoMlxqX_lX94S-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-46" value="ACK集群" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="91.5" y="580" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-70" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-47" target="CZEU1sbUoMlxqX_lX94S-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-47" value="&lt;div&gt;Service CIDR&lt;/div&gt;&lt;div&gt;服务发现和负载均衡&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="250" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-71" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-48" target="CZEU1sbUoMlxqX_lX94S-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-48" value="&lt;div&gt;Service CIDR&lt;/div&gt;&lt;div&gt;服务发现和负载均衡&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="415" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-72" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-49" target="CZEU1sbUoMlxqX_lX94S-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-49" value="&lt;div&gt;Service CIDR&lt;/div&gt;&lt;div&gt;服务发现和负载均衡&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="600" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-50" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pod虚拟机&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="631" y="767" width="219" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-51" value="&lt;div&gt;Pod虚拟机&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FF3333;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="767" width="230" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-52" value="&lt;div&gt;Pod虚拟机 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="110" y="767" width="234" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-53" value="应用A" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="651" y="806.5" width="46.22" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-54" value="应用B" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="701" y="806.75" width="46.22" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-55" value="应用C" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="747.22" y="806.75" width="46.22" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-57" value="&lt;b&gt;......&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="801" y="818.25" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-61" value="应用A" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="140" y="806.25" width="46.22" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-62" value="应用B" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="190" y="806.5" width="46.22" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-63" value="应用C" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="236.22000000000003" y="806.5" width="46.22" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-64" value="&lt;b&gt;......&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="818" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-65" value="应用A" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="385" y="806.5" width="46.22" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-66" value="应用B" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="435" y="806.75" width="46.22" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-67" value="应用C" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="481.22" y="806.75" width="46.22" height="43.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-68" value="&lt;b&gt;......&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="535" y="818.25" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-73" value="&lt;b&gt;......&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="560" y="663" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-74" value="&lt;b&gt;......&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="818" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-83" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#007FFF;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-81" value="" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" vertex="1" parent="1">
+          <mxGeometry x="159.5" y="401" width="160" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-86" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#007FFF;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-82" target="CZEU1sbUoMlxqX_lX94S-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-82" value="" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;" vertex="1" parent="1">
+          <mxGeometry x="395" y="399.5" width="160" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-90" value="mysql数据库" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="457.25" y="970" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-94" value="&lt;div class=&quot;mind-clipboard&quot;&gt;&lt;div&gt;虚拟交换机VSW&lt;/div&gt;&lt;div&gt;（用于集群节点间网络通信）&lt;/div&gt;&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/other/Local_Network_Gateways.svg;" vertex="1" parent="1">
+          <mxGeometry x="679.22" y="971.5" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="712.2608695652175" y="931" as="sourcePoint" />
+            <mxPoint x="712.2608695652175" y="971" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="283.2608695652177" y="932" as="sourcePoint" />
+            <mxPoint x="283.2608695652177" y="972" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-103" value="&lt;div class=&quot;mind-clipboard&quot;&gt;&lt;div&gt;公网SNAT网关&lt;/div&gt;&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/NAT.svg;" vertex="1" parent="1">
+          <mxGeometry x="640.11" y="423" width="68" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
