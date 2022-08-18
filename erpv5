@@ -1,4 +1,4 @@
-<mxfile modified="2022-08-18T06:31:23.881Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="I_CGlYXef8pv0tInI6oV" version="17.4.4" type="github">
+<mxfile modified="2022-08-18T06:36:35.144Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="UhiZS7ZdlCg8wKV8Io04" version="17.4.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1727" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -90,7 +90,7 @@
             <mxPoint x="223" y="767" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-47" value="&lt;div&gt;Service CIDR&lt;/div&gt;&lt;div&gt;服务发现和负载均衡&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-47" value="&lt;div&gt;Service CIDR&lt;/div&gt;&lt;div&gt;服务发现和负载均衡&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="233" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-71" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-48" target="CZEU1sbUoMlxqX_lX94S-127">
@@ -98,7 +98,7 @@
             <mxPoint x="438" y="767" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-48" value="&lt;div&gt;Service CIDR&lt;/div&gt;&lt;div&gt;服务发现和负载均衡&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-48" value="&lt;div&gt;Service CIDR&lt;/div&gt;&lt;div&gt;服务发现和负载均衡&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="512" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-72" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#007FFF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CZEU1sbUoMlxqX_lX94S-49" target="CZEU1sbUoMlxqX_lX94S-136">
@@ -106,7 +106,7 @@
             <mxPoint x="670.1616161616164" y="767" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CZEU1sbUoMlxqX_lX94S-49" value="&lt;div&gt;Service CIDR&lt;/div&gt;&lt;div&gt;服务发现和负载均衡&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FF3333;" vertex="1" parent="1">
+        <mxCell id="CZEU1sbUoMlxqX_lX94S-49" value="&lt;div&gt;Service CIDR&lt;/div&gt;&lt;div&gt;服务发现和负载均衡&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6666;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="853" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CZEU1sbUoMlxqX_lX94S-57" value="&lt;b&gt;......&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=16;" vertex="1" parent="1">
